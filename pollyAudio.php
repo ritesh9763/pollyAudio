@@ -66,7 +66,7 @@ class makeAudio {
 
 }
 
-if (isset($_REQUEST['content'])) {
+if (isset($_REQUEST['content']) && isset($_REQUEST['filename'])) {
     $audio = new makeAudio($_REQUEST);
 }
 ?>

@@ -10,7 +10,7 @@ Now install "lame" on the server for MP3 encodings. For ubuntu and other debian,
 Get the lame install path by typing "which lame" in the terminal. Replace the lame install path in the pollyAudio.php file. 
 
 Thats it and you are good to go.
-Simply, browse to your web-server's URL\pollyAudio.php?content="Any text for which you need the mp3"&filename="Name of the MP3 file" and hit enter. If the configurations are correct, an MP3 file with the name specified in the URL shall be downloaded onto your computer.
+Simply, browse to your web-server's URL\pollyAudio.php?content="YOUR CONTENT"&filename="DOWNLOAD FILE NAME" and hit enter. If the configurations are correct, an MP3 file with the name specified in the URL shall be downloaded onto your computer.
 
 You can also tweak the application to generate the output file in any format supported by AWS-Polly. Just use the correct encoder application to build the file correctly before download. One such method is presented in the application in comment section to generate a SLN file using Sox.
 

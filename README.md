@@ -14,5 +14,5 @@ Simply, browse to your web-server's URL\pollyAudio.php?content="Any text for whi
 
 You can also tweak the application to generate the output file in any format supported by AWS-Polly. Just use the correct encoder application to build the file correctly before download. One such method is presented in the application in comment section to generate a SLN file using Sox.
 
-Thanks for reading !!
+Happy Coding !!
 
